@@ -1,0 +1,26 @@
+@media (max-width: 480px) {
+  .contact-wrap,
+  .collections-wrap {
+    display: none;
+  }
+  .sidebar {
+    width: 100%;
+    float: none;
+    height: 130px;
+    position: fixed;
+  }
+  #main {
+    width: 100%;
+    margin-top: 130px;
+  }
+  .navbar {
+    padding: 15px;
+  }
+  .logo {
+    width: 50%;
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+}

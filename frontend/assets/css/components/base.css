@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic');
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}

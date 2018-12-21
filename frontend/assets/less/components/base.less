@@ -1,0 +1,35 @@
+//basic tags and general rules
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	&>a{
+		display: none;
+	}
+}
+#wrapper{
+	width: 100%;
+	overflow-x: hidden;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+a, button{
+  .transition();
+  &:hover, &:focus, &:active, &:visited{
+    text-decoration: none;
+    outline: none;
+  } 
+}
+button{
+	border: none;
+}
+button.active.focus, button.active:focus, button.focus, button:active.focus, button:active:focus, button:focus{
+  outline: none;
+}
+h1, h2, h3, h4, p{
+  margin: 0;
+  padding: 0;
+}
