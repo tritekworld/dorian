@@ -1,0 +1,450 @@
+body {
+	min-width: 1200px;
+}
+.navbar-toggle {
+    display: none;
+}
+.navbar-collapse.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.visible-lg, .visible-md, .visible-sm, .visible-xs {
+    display: none!important;
+}
+.tab-ral.list-unstyled.list-inline {
+	display: table;
+}
+.tab-ral.list-unstyled.list-inline li {
+	display: table-cell;
+    max-width: 120px;
+    width: 120px;
+    padding: 10px 10px;
+}
+.tab-ral li a {
+    display: block;
+    height: 58px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.tab-ral li a span {
+    position: absolute;
+    top: 5px;
+    bottom: auto;
+    padding: 0px 5px 0px 9px;
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #333;
+}
+.video-wrap > div {
+	height: 100%;
+}
+
+
+
+
+
+
+@media only screen and (max-width : 1200px), (max-height : 800px) {
+#section-configurator:before {
+    top: 0px;
+    height: 168px;
+}
+.model-wrap {
+    height: auto;
+}
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 1550px) {
+.tab-models ul li {
+    margin-right: 18px;
+}
+}
+
+@media only screen and (max-width : 1500px) {
+.tab-ral.list-unstyled.list-inline li {
+    padding: 10px 5px;
+}
+#section-advantages {
+    padding: 0px 10px 0px 15px;
+    width: 100%;
+}
+#section-advantages h2 {
+	width: auto;
+}
+}
+
+@media only screen and (max-width : 1450px) {
+.tab-models ul li {
+    margin-right: 10px;
+}
+}
+
+@media only screen and (max-width : 1400px) {
+#header span {
+    padding: 0 25px;
+}
+#header ul li {
+    padding: 10px 15px;
+}
+#section-frames h2 {
+    margin: 40px 0px 0px 0px;
+}
+#section-frames {
+    padding: 0px 10px;
+}
+#section-frames .content {
+    width: 100%;
+}
+#section-frames .content .frame1 {
+    width: 100%;
+	background: url(../img/modern/colore/bg_frame1.png) no-repeat -60px center;
+}
+#section-frames .content .frame3 {
+    width: 240px;
+}
+#section-frames .content .frame4 {
+    margin-left: 10px;
+}
+#section-advantages h2 {
+	margin: 60px 0px 25px 0px;
+}
+#section-advantages .true-price {
+    padding: 10px 5px 10px 100px;
+    background-color: #fff;
+    width: 60%;
+    margin-top: 55px;
+    margin-bottom: 0px;
+}
+.fp-controlArrow.fp-prev {
+    left: 30px;
+}
+.fp-controlArrow.fp-next {
+    left: 90px;
+}
+.fp-slidesNav {
+    left: 165px!important;
+}
+.model-wrap {
+    padding-left: 20px;
+}
+.tab-models {
+    left: 350px;
+}
+.model-wrap .info {
+    margin-left: 330px;
+}
+#section-configurator {
+    padding-right: 10px;
+}
+#header ul li.active:after {
+    width: calc(100% - 30px);
+}
+}
+
+@media only screen and (max-width : 1300px) {
+.main-content {
+    z-index: 0;
+}
+.collections-wrap {
+    z-index: 1;
+}
+#header span {
+    padding: 0 15px;
+}
+#header ul li {
+    padding: 10px 10px;
+}
+.model-wrap .info .price-wrap .price {
+    margin-right: 0px;
+}
+#header ul li.active:after {
+    width: calc(100% - 20px);
+}
+.model-wrap .info .title {
+    font-size: 34px;
+}
+}
+
+@media only screen and (max-width : 1200px) {
+.fp-tableCell {
+    vertical-align: top;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.custom-logo-link img {
+    width: 197px;
+    height: auto;
+}
+#navMenu footer {
+	display: block !important;
+}
+}
+
+
+
+
+@media only screen and (max-height : 1050px) {
+.model-wrap .img-wrap {
+    width: 295px;
+}
+}
+
+@media only screen and (max-height : 1000px) {
+#section-frames h2 {
+    margin: 40px 0px 0px 0px;
+}
+.tab-models ul li {
+    margin-bottom: 20px;
+}
+.model-wrap .img-wrap {
+    width: 270px;
+}
+}
+
+@media only screen and (max-height : 950px) {
+.model-wrap .img-wrap {
+    width: 254px;
+	margin-left: 16px;
+}
+}
+
+@media only screen and (max-height : 900px) {
+.main-menu {
+    margin-top: 50px;
+}
+#section-frames .content .frame1 {
+    height: 290px;
+}
+#section-advantages .content .block1 {
+    height: 230px;
+	padding: 30px 25px;
+}
+#section-advantages .content .block2 {
+    height: 230px;
+	padding: 30px 40px;
+}
+#section-advantages .content .block2 p {
+    margin-top: 15px;
+}
+.model-wrap .info {
+    padding-top: 10px;
+	padding-bottom: 20px;
+}
+.tab-models {
+    padding-top: 20px;
+    top: 134px;
+}
+.tab-models span {
+    margin-bottom: 34px;
+}
+.model-wrap .img-wrap {
+    padding: 24px 0px 0px 0px;
+}
+.model-wrap .img-wrap {
+    width: 240px;
+    margin-left: 22px;
+}
+.mag_image_display {
+    top: 25px;
+	left: 270px;
+}
+}
+
+@media only screen and (max-height : 850px) {
+#section-advantages .content .block2 h3 {
+    font-size: 34px;
+}
+#section-advantages .content .block2 {
+    height: 195px;
+    padding: 10px 40px;
+}
+#section-advantages .content .block1 {
+    height: 195px;
+    padding: 15px 25px;
+}
+.model-wrap .img-wrap {
+    width: 219px;
+    margin-left: 40px;
+}
+.mag_image_display {
+    left: 235px;
+    top: 24px;
+}
+}
+
+@media only screen and (max-height : 800px) {
+.main-menu {
+    margin-top: 30px;
+}
+#section-frames .content .frame1 {
+    padding: 10px 30px;
+    height: 240px;
+}
+#section-advantages .content .block3 {
+    height: 130px;
+    padding: 10px 20px 0;
+}
+#section-advantages .content .block3 ul {
+    margin-top: 10px;
+}
+#section-advantages .content .block5 {
+    height: auto;
+    padding: 10px 20px 0;
+}
+#section-advantages .content .block5 dl dt {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+#section-advantages .content .block4 {
+    width: 30%;
+    height: auto;
+    padding: 10px 15px 10px 23px;
+}
+}
+
+@media only screen and (max-height : 750px) {
+.navbar {
+    padding: 25px 10px;
+}
+footer .bottom {
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+#section-frames .content .frame2 {
+    height: 270px;
+    padding: 15px 20px;
+}
+#section-frames .content .frame3 {
+    height: 270px;
+    padding: 15px 30px;
+}
+#section-frames .content .frame4 {
+    height: 270px;
+    padding: 15px 25px;
+}
+.navbar ul li a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+}
+
+@media only screen and (max-height : 700px) {
+.navbar ul li a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#section-frames .content .frame1 p {
+    margin-top: 8px;
+}
+#section-frames .content .frame1 {
+    height: 200px;
+}
+#section-advantages .content .block4 p {
+    margin-top: 8px;
+}
+#section-advantages .content .block4 {
+    height: 150px;
+}
+#section-advantages .content .block5 p {
+    font-size: 13px;
+    margin-top: 8px;
+}
+#section-advantages .content .block5 dl dt {
+    font-size: 17px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+#section-advantages .content .block5 h3 {
+    font-size: 17px;
+}
+#section-advantages .content .block3 h3 {
+    font-size: 17px;
+}
+#section-advantages .content .block4 h3 {
+    font-size: 17px;
+}
+#section-advantages .content .block4 p {
+    font-size: 13px;
+    margin-top: 5px;
+}
+#section-advantages .content .block3 ul {
+    font-size: 13px;
+    margin-top: 5px;
+    padding-left: 0;
+}
+#section-advantages .content .block2 p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+#section-advantages .content .block1 h3 {
+    font-size: 21px;
+}
+#section-advantages .content .block2 h3 {
+    font-size: 30px;
+    color: white;
+}
+}
+
+@media only screen and (max-height : 650px) {
+.navbar ul li a {
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+.main-menu li.active > a {
+    padding-bottom: 5px;
+}
+#section-frames .content .frame2 p {
+    margin-top: 15px;
+}
+#section-frames .content .frame2 {
+    height: 240px;
+    padding: 10px 20px;
+}
+#section-frames .content .frame3 p {
+    margin-top: 15px;
+}
+#section-frames .content .frame3 {
+    height: 240px;
+    padding: 10px 30px;
+}
+#section-frames .content .frame4 p {
+    margin-top: 15px;
+}
+#section-frames .content .frame4 {
+    height: 240px;
+    padding: 10px 25px;
+}
+}
+@media only screen and (max-height : 600px) {
+footer {
+	position: relative;
+}
+.navbar {
+    padding: 25px 10px 0px 10px;
+	margin-bottom: 0px;
+	transition: 0s;
+}
+
+}
+	

@@ -1,0 +1,16 @@
+.vc-acf-field-picker-google-map {
+  position: relative;
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+  border: #ccc solid 1px;
+}
+.vc-acf-field-picker-google-map::before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 56%;
+}
+.vc-acf-field-picker-google-map img {
+  max-width: inherit !important;
+}

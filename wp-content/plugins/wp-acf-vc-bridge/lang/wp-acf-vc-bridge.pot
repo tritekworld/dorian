@@ -1,0 +1,605 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP ACF_VC Bridge\n"
+"POT-Creation-Date: 2018-06-09 11:30+0200\n"
+"PO-Revision-Date: 2017-09-23 12:11+0200\n"
+"Last-Translator: Pavlo Reva <info@pavelreva.com>\n"
+"Language-Team: Pavlo Reva (info@pavelreva.com)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: config\n"
+"X-Poedit-SearchPath-2: wp-acf-vc-bridge.php\n"
+
+#: config/acf.php:9
+msgid "Google Maps Settings"
+msgstr ""
+
+#: config/acf.php:13
+msgid "Google API Key"
+msgstr ""
+
+#: config/acf.php:16
+msgid "Google API Key is required for Google Maps. You'll need to obtain your API Key here https://console.developers.google.com/apis/"
+msgstr ""
+
+#: config/acf.php:32
+msgid "Enqueue Google Maps API Script"
+msgstr ""
+
+#: config/acf.php:35
+msgid "Google Maps API Script is required to render any Google Map on your website. Sometimes this script is loaded by your theme or another plugin. To avoid duplication, which may lead to unexpected results, you have an option to prevent loading this script by WP ACF-VC Bridge plugin."
+msgstr ""
+
+#: config/acf.php:44
+msgid "Yes, enqueue Google Maps API scripts"
+msgstr ""
+
+#: config/acf.php:45
+msgid "No, I have them loaded elsewhere"
+msgstr ""
+
+#: config/acf.php:56
+msgid "Enqueue ACF Google Maps Script"
+msgstr ""
+
+#: config/acf.php:59
+msgid "By default, Google Map ACF field is not rendered on frontend. This option allows you to automatically create Google Map from ACF field or you can also disable this behavior, if you are going to render Google Map ACF field manually with your custom code."
+msgstr ""
+
+#: config/acf.php:68
+msgid "Yes, enqueue scripts to render ACF Google Map fields automatically"
+msgstr ""
+
+#: config/acf.php:69
+msgid "No, I have a custom code"
+msgstr ""
+
+#: config/acf.php:95 config/acf.php:143 config/acf.php:213
+msgid "WP ACF-VC Bridge Settings"
+msgstr ""
+
+#: config/acf.php:100
+msgid "Shortcodes settings"
+msgstr ""
+
+#: config/acf.php:104
+msgid "Force Shortcodes Processing"
+msgstr ""
+
+#: config/acf.php:107
+msgid "In case if shortcodes are not rendered on post pages or in widgets, you can fix it here."
+msgstr ""
+
+#: config/acf.php:116
+msgid "Force shortcodes processing on posts and pages"
+msgstr ""
+
+#: config/acf.php:117
+msgid "Force shortcodes processing in widgets"
+msgstr ""
+
+#: config/acf.php:118
+msgid "Force shortcodes processing in category descriptions"
+msgstr ""
+
+#: config/acf.php:148
+msgid "WPML compatibility"
+msgstr ""
+
+#: config/acf.php:152
+msgid "Multilingual VC Snippet IDs"
+msgstr ""
+
+#: config/acf.php:155
+msgid "Globally define how multilingual VC Snippets should be processed."
+msgstr ""
+
+#: config/acf.php:164
+msgid "Automatically adjust VC Snippet IDs to match the current language"
+msgstr ""
+
+#: config/acf.php:165
+msgid "Return VC Snippet in default language if translation does not exist"
+msgstr ""
+
+#: config/acf.php:175
+msgid "Multilingual ACF Field Picker IDs"
+msgstr ""
+
+#: config/acf.php:178
+msgid "Globally define how if IDs in ACF Field Picker should be adjusted automatically."
+msgstr ""
+
+#: config/acf.php:187
+msgid "Automatically adjust ACF Field Picker IDs to match the current language"
+msgstr ""
+
+#: config/acf.php:188
+msgid "Return ID in default language if translation does not exist"
+msgstr ""
+
+#: includes/acf-field-templates.php:92
+msgid "No template"
+msgstr ""
+
+#: includes/acf-field-templates.php:211
+msgid "Layout Templates"
+msgstr ""
+
+#: includes/acf-field-templates.php:212
+msgid "For each layout below you can pick a VC Snippet that will serve as a template."
+msgstr ""
+
+#: includes/acf-field-templates.php:228
+msgid "Before newly added layout appears here, the field group must be saved."
+msgstr ""
+
+#: includes/acf-field-templates.php:250 includes/acf-field-templates.php:274
+msgid "Template"
+msgstr ""
+
+#: includes/acf-field-templates.php:251
+msgid "You can pick a template to use for displaying each row."
+msgstr ""
+
+#: includes/acf-field-templates.php:275
+msgid "You can pick a template to use for displaying this group."
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:18 wp-acf-vc-bridge.php:375
+msgid "Visual Composer"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:24
+msgid "Edit content"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:25
+msgid "Done"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:26
+msgid "Full screen mode"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:27
+#, fuzzy
+msgid "Description"
+msgstr "Description"
+
+#: includes/acf-field-visual-composer.php:61
+msgid "View mode"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:62
+msgid "Compact mode shows description and edit button, while full mode renders VC backend editor (could be slower)"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:67
+msgid "Full"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:68
+msgid "Compact"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:73
+msgid "Allow Classic Mode"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:77
+msgid "Shows or hides Backend editor and Classic mode switch buttons "
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:81
+msgid "Edit button label"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:88
+msgid "Done button label"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:95
+msgid "Full screen mode button label"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:102
+msgid "Description label"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:109
+msgid "Return value"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:110
+msgid "Specify the returned value on front end"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:115
+msgid "Complete (process content shortcodes and custom CSS styles)"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:116
+msgid "Content (shortcodes processed)"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:117
+msgid "Raw content"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:118
+msgid "Raw data array"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:125
+msgid "Front-end Wrapper Attributes"
+msgstr ""
+
+#: includes/acf-field-visual-composer.php:126
+msgid "If filled, then div tag with specified attributes will wrap the contents"
+msgstr ""
+
+#: includes/vc-acf-field-picker-filters.php:182
+#, fuzzy
+msgid "yes"
+msgstr "Yes"
+
+#: includes/vc-acf-field-picker-filters.php:182
+msgid "no"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:135
+msgid "(No title)"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:590 includes/vc-acf-field-picker.php:657
+msgid "Field name"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:674
+msgid "Field context"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:688
+msgid "This Page Field"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:701
+msgid "Option Field"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:714
+msgid "Page Type"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:729
+msgid "Page"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:741
+#, fuzzy
+msgid "Field"
+msgstr "I agree field"
+
+#: includes/vc-acf-field-picker.php:765 includes/vc-acf-field-picker.php:980
+msgid "Fields Group"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:794
+msgid "Sub-Field"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:797
+msgid "Enter a number to extract a particular sub-item from Repeater or Flexible Content field"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:803 includes/vc-acf-field-picker.php:991
+msgid "ACF Field Picker"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:804 includes/vc-acf-field-picker.php:992
+msgid "Embed Advanced Custom Fields field from this or options page"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:839
+#: includes/vc-acf-template-field-picker.php:369
+msgid "Show label"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:842 includes/vc-acf-field-picker.php:856
+#: includes/vc-acf-field-picker.php:871
+#: includes/vc-acf-template-field-picker.php:372
+#: includes/vc-acf-template-field-picker.php:382
+#, fuzzy
+msgid "Yes"
+msgstr "Yes"
+
+#: includes/vc-acf-field-picker.php:844
+#: includes/vc-acf-template-field-picker.php:374
+msgid "If checked, the field label (configured in field settings) will be shown before the field value"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:853
+#: includes/vc-acf-template-field-picker.php:379
+msgid "Hide empty"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:858
+#: includes/vc-acf-template-field-picker.php:384
+msgid "If checked, then field will not be displayed if its value is empty"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:868
+msgid "Wrap field"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:874
+msgid "If checked, then field will be wrapped with HTML tag with classes"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:884
+msgid "Wrapper tag"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:914
+#: includes/vc-acf-template-field-picker.php:389
+msgid "Extra classes"
+msgstr ""
+
+#: includes/vc-acf-field-picker.php:917
+#: includes/vc-acf-template-field-picker.php:392
+msgid "Additional class names for the field wrapper"
+msgstr ""
+
+#: includes/vc-acf-template-field-picker.php:248
+msgid "-- Select field --"
+msgstr ""
+
+#: includes/vc-acf-template-field-picker.php:361
+msgid "Template Field"
+msgstr ""
+
+#: includes/vc-acf-template-field-picker.php:397
+msgid "ACF Template Field"
+msgstr ""
+
+#: includes/vc-acf-template-field-picker.php:398
+msgid "Embed Advanced Custom Fields field when used in template"
+msgstr ""
+
+#: includes/vc-snippet-widget.php:26 includes/vc-snippets.php:278
+#: includes/vc-snippets.php:280 includes/vc-snippets.php:304
+#: includes/vc-vc-snippet.php:232 includes/vc-vc-snippet.php:240
+#: includes/vc-vc-snippet.php:309 includes/vc-vc-snippet.php:317
+msgid "VC Snippet"
+msgstr ""
+
+#: includes/vc-snippet-widget.php:27
+msgid "Embed VC Snippet"
+msgstr ""
+
+#: includes/vc-snippet-widget.php:70
+msgid "Title:"
+msgstr ""
+
+#: includes/vc-snippet-widget.php:75
+msgid "Show title"
+msgstr ""
+
+#: includes/vc-snippet-widget.php:78
+msgid "Filter by category:"
+msgstr ""
+
+#: includes/vc-snippet-widget.php:80 includes/vc-snippet-widget.php:91
+#, fuzzy
+msgid "Select"
+msgstr "Select"
+
+#: includes/vc-snippet-widget.php:89
+msgid "VC Snippet:"
+msgstr ""
+
+#: includes/vc-snippets.php:99 includes/vc-snippets.php:277
+#: includes/vc-snippets.php:279 includes/vc-snippets.php:305
+msgid "VC Snippets"
+msgstr ""
+
+#: includes/vc-snippets.php:100
+msgid "Append VC Snippets to current layout"
+msgstr ""
+
+#: includes/vc-snippets.php:281
+msgid "Archives"
+msgstr ""
+
+#: includes/vc-snippets.php:282
+msgid "Parent item:"
+msgstr ""
+
+#: includes/vc-snippets.php:283
+msgid "All items"
+msgstr ""
+
+#: includes/vc-snippets.php:284
+msgid "Add new item"
+msgstr ""
+
+#: includes/vc-snippets.php:285
+msgid "Add item"
+msgstr ""
+
+#: includes/vc-snippets.php:286
+msgid "New item"
+msgstr ""
+
+#: includes/vc-snippets.php:287
+msgid "Edit item"
+msgstr ""
+
+#: includes/vc-snippets.php:288
+msgid "Update item"
+msgstr ""
+
+#: includes/vc-snippets.php:289
+msgid "View item"
+msgstr ""
+
+#: includes/vc-snippets.php:290
+msgid "Search items"
+msgstr ""
+
+#: includes/vc-snippets.php:291 includes/vc-snippets.php:345
+msgid "Not found"
+msgstr ""
+
+#: includes/vc-snippets.php:292
+msgid "Not found in trash"
+msgstr ""
+
+#: includes/vc-snippets.php:293
+msgid "Featured image"
+msgstr ""
+
+#: includes/vc-snippets.php:294
+msgid "Add Featured image"
+msgstr ""
+
+#: includes/vc-snippets.php:295
+msgid "Remove Featured image"
+msgstr ""
+
+#: includes/vc-snippets.php:296
+msgid "Use as Featured image"
+msgstr ""
+
+#: includes/vc-snippets.php:297
+msgid "Insert"
+msgstr ""
+
+#: includes/vc-snippets.php:298
+msgid "Uploaded to the item"
+msgstr ""
+
+#: includes/vc-snippets.php:299
+msgid "Items list"
+msgstr ""
+
+#: includes/vc-snippets.php:300
+msgid "List navigation"
+msgstr ""
+
+#: includes/vc-snippets.php:301
+msgid "Filter items list"
+msgstr ""
+
+#: includes/vc-snippets.php:329 includes/vc-snippets.php:330
+msgid "Category"
+msgstr ""
+
+#: includes/vc-snippets.php:331
+msgid "Categories"
+msgstr ""
+
+#: includes/vc-snippets.php:332
+msgid "All categories"
+msgstr ""
+
+#: includes/vc-snippets.php:333
+msgid "Parent category"
+msgstr ""
+
+#: includes/vc-snippets.php:334
+msgid "Parent category:"
+msgstr ""
+
+#: includes/vc-snippets.php:335
+msgid "New category"
+msgstr ""
+
+#: includes/vc-snippets.php:336
+msgid "Add new category"
+msgstr ""
+
+#: includes/vc-snippets.php:337
+msgid "Edit category"
+msgstr ""
+
+#: includes/vc-snippets.php:338
+msgid "Update category"
+msgstr ""
+
+#: includes/vc-snippets.php:339
+msgid "View category"
+msgstr ""
+
+#: includes/vc-snippets.php:340
+msgid "Separate categories with commas"
+msgstr ""
+
+#: includes/vc-snippets.php:341
+msgid "Add or remove categories"
+msgstr ""
+
+#: includes/vc-snippets.php:342
+msgid "Choose from most used"
+msgstr ""
+
+#: includes/vc-snippets.php:343
+msgid "Popular"
+msgstr ""
+
+#: includes/vc-snippets.php:344
+msgid "Search categories"
+msgstr ""
+
+#: includes/vc-snippets.php:346
+msgid "No categories"
+msgstr ""
+
+#: includes/vc-snippets.php:347
+msgid "Categories list"
+msgstr ""
+
+#: includes/vc-snippets.php:348
+msgid "Categories liste navigation"
+msgstr ""
+
+#: includes/vc-vc-snippet.php:241 includes/vc-vc-snippet.php:318
+msgid "Embed Visual Composer content snippet"
+msgstr ""
+
+#: wp-acf-vc-bridge.php:375
+msgid "is required for the WP ACF-VC Bridge!"
+msgstr ""
+
+#: wp-acf-vc-bridge.php:383
+msgid "ACF Free"
+msgstr ""
+
+#: wp-acf-vc-bridge.php:383
+msgid "ACF PRO"
+msgstr ""
+
+#: wp-acf-vc-bridge.php:390
+msgid "Please disable your ACF free plugin version as it is no longer needed"
+msgstr ""
+
+#: wp-acf-vc-bridge.php:426
+msgid "Do not exclude current post"
+msgstr ""
+
+#: wp-acf-vc-bridge.php:427
+msgid "By default, current post or last post on archive pages is excluded. Check this checkbox to prevent this bahavior."
+msgstr ""
+
+#: wp-acf-vc-bridge.php:429
+msgid "Do not exclude"
+msgstr ""

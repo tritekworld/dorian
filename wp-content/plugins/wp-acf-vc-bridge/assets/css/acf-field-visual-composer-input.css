@@ -1,0 +1,206 @@
+.acf-field-vc.view-mode-full .acf-field-vc-description {
+  display: none;
+}
+
+.acf-field-vc-wrapper *,
+.acf-field-vc-wrapper {
+  box-sizing: border-box;
+  -webkit-sizing: border-box;
+  -moz-sizing: border-box;
+}
+.acf-field-vc-popup-header,
+.acf-field-vc-input-description {
+  display: none;
+}
+.acf-field-vc-wrapper {
+  position: relative;
+  border: 3px solid #eee;
+}
+.view-mode-compact .acf-field-vc-wrapper {
+  display: none;
+}
+.acf-field-vc-wrapper.fullscreen {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  background: rgba( 0,0,0,0.8 );
+  z-index: 99999;  
+}
+.fullscreen .acf-field-vc-popup {
+  position: relative;
+  padding: 60px 20px 20px 20px;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.fullscreen .acf-field-vc-wrapper.loading .acf-field-vc-popup::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.8);
+  z-index: 9;
+}
+.fullscreen .acf-field-vc-popup-header {
+  position: absolute;
+  top: 20px;
+  right: 20px;  
+  left: 20px;
+  height: 40px;
+}
+.acf-field-vc-edit.acf-field-vc-edit {
+  margin-top: 10px;  
+}
+.acf-field-vc-done {
+  float: right;
+}
+.acf-field-vc-input-description {
+  float: left;
+  max-width: 50%;
+}
+.acf-field-vc-wrapper.fullscreen .acf-field-vc-wrapper,
+.acf-field-vc-wrapper.fullscreen.initialized .acf-field-vc-popup-header,
+.acf-field-vc.view-mode-compact .acf-field-vc-wrapper.fullscreen .acf-field-vc-input-description {
+  display: block;
+}
+.fullscreen .acf-field-vc-popup-content {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;  
+  height: 100%;
+  border: 3px solid #eee;
+}
+.acf-field-vc-iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.acf-field-vc-wrapper .acf-field-vc-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.acf-field-vc-wrapper.initialized .acf-field-vc-loader {
+  display: none;
+}
+
+/*.acf-field[data-type="visual_composer"] {
+  display: none;
+}*/
+.acf-field-vc-disabled .acf-field[data-type="visual_composer"] {
+  display: none !important;
+}
+
+/*.acf-field-vc-enabled .acf-field[data-type="visual_composer"] {
+  display: block;
+  display: table-row;
+}*/
+
+.form-table > tbody > .acf-field[data-type="visual_composer"] > .acf-label {
+  float: left;  
+}
+.form-table > tbody > .acf-field[data-type="visual_composer"] > .acf-input {
+  /*display: block;  */
+  /*overflow: hidden;*/
+  display: table-cell;
+  width: 100%;
+}
+
+
+.sk-folding-cube {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #114c7f;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}

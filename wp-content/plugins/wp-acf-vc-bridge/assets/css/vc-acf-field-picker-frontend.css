@@ -1,0 +1,14 @@
+.vc-acf-field-picker-field-label {
+  font-weight: bold;  
+}
+.vc-acf-field-picker-field-label::after {
+  content: ': ';
+}
+
+.vc-acf-field-picker-color-picker {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #eee;
+}

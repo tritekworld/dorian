@@ -1,0 +1,41 @@
+.vc-acf-field-picker {
+}
+.vc-acf-field-picker-field-hidden {
+  display: none;
+}
+.vc-acf-field-picker-field-preview {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#vc_ui-panel-edit-element[data-vc-shortcode="vc-acf-field-picker"] [data-vc-shortcode-param-name="data_context"],
+#vc_ui-panel-edit-element[data-vc-shortcode="vc-acf-field-picker"] [data-vc-shortcode-param-name="page_id"],
+#vc_ui-panel-edit-element[data-vc-shortcode="vc-acf-field-picker"] [data-vc-shortcode-param-name="page_field"] {
+  display: none;
+}
+#vc_ui-panel-edit-element[data-vc-shortcode="vc-acf-field-picker"].vc-acf-field-picker-page-fields-ready [data-vc-shortcode-param-name="page_field"] {
+  display: block;
+}
+
+.vc-acf-field-picker-page-selector {
+  padding: 5px 0 0;
+}
+.vc-acf-field-picker-page-selector-heading {
+  padding: 5px;
+  font-weight: bold;
+  background: #f0f0f0;
+}
+.vc-acf-field-picker-page-selector-list {
+  padding: 5px;
+}
+.vc-acf-field-picker-page-selector-list-item {
+  padding: 5px 0 1px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+.vc-acf-field-picker-page-selector-list-item:hover {
+  background-color: #fafafa;
+}
+.vc-acf-field-picker-page-selector-list-item.selected {
+  color: #070;
+}
